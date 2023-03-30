@@ -12,11 +12,12 @@ My custom Developer Console isn't perfect, some secure sites disable inline-scri
 
 # Instructions
 **Instructions without Console (Blocked by School, etc)**
-1. Copy the Script from *devconsole/Bookmarklet.txt*.
-1. Add a New Bookmark With the Code From *Bookmarklet.txt* as the URL.
+1. Copy the Script from *bookmarklet.js*, or by using the code snippet below.
+`javascript:(function()%7B(function()%20%7Bvar%20x%20%3D%20document.createElement(%22script%22)%3Bx.src%20%3D%20%22https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSnowLord7%2Fdevconsole%40master%2Fmain.js%22%3Bx.onerror%20%3D%20alert(%22Error%20Loading%20Developer%20Console!%22)%3Bdocument.head.appendChild(x)%3B%7D)()%7D)()`
+3. Add a New Bookmark With the Code From *Bookmarklet.txt* as the URL.
    1. If you don't see your bookmark bar, press *Ctrl + Shift + b*.
    1. For more help see the GIF below.
-1. Click the Bookmark to Start the Developer Console.
+4. Click the Bookmark to Start the Developer Console.
 ![Adding Bookmark](https://media.discordapp.net/attachments/494518655200002072/557344351253168128/Dev.gif)
 
 **Basic Instructions /w Console**
